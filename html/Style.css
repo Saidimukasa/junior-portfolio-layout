@@ -1,0 +1,49 @@
+body{
+    /* background-color: gainsboro; */
+     /* background-image: url("image2.JPG") ;  */
+     background-color: blanchedalmond;
+     background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-items: space-between;
+        padding: 10px ;
+        color: rgb(230, 41, 41); 
+        font-size: larger;
+        font-language-override: inherit;
+    }
+    
+    ul{
+        list-style: none;
+        display: flex;
+        /* justify-items: space-between; */
+        color: rgb(243, 2, 2); 
+    }
+    
+    ul li{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: 500;
+        color: rgb(255, 0, 0);
+        list-style: none;
+ 
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+    }
+    
+    img{
+        width: 250px;
+        border-radius: 25px;
+    }
+    #lists{
+    text-decoration: none;
+    text-align: justify;
+color: aquamarine;
+
+    }
